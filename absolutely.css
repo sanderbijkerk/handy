@@ -1,0 +1,165 @@
+body {
+	text-align : center;
+	font-family : Tahoma;
+	font-size : 14px;
+	background-color : black;
+	/* toe te voegen */
+	margin: 0;
+}
+.all {
+	position: relative;
+	text-align : left;
+	height : 645px;
+}
+
+main {
+	width : 700px;
+	margin : 100px auto;
+	background-image : url(bg.jpg);
+	border : 4px solid red;
+}
+
+section {
+	background-color: rgba(255,255,255,0.5);
+	position: absolute;
+	top: 380px;
+	padding: 10px;
+}
+
+section p, section h1 {
+	margin: 0;
+}
+
+.navbar {
+	background-image: url(bar1.png);
+	background-repeat: repeat-x;
+}
+
+.navbar a {
+	color: rgb(128,128,128);
+	text-decoration: none;
+	padding-left: 30px;
+	margin-bottom: 2px;
+}
+
+.navbar:hover {
+	background: url(bar2.png);
+	color: black;
+}
+
+												/* Alle gereedschappen stylen */
+#title {
+	position: absolute;
+	bottom: 570px;
+	left: 20px;
+}
+
+#title:hover {
+	position: absolute;
+	bottom: 565px;
+	left: 20px;
+}
+
+#saw {
+	position: absolute;
+	top: 80px;
+	right: 550px;
+}
+
+#saw:hover {
+	position: absolute;
+	top: 80px;
+	right: 545px;
+}
+
+#hammer {
+	position: absolute;
+	bottom: 480px;
+	right: 90px;
+}
+
+#hammer:hover {
+	position: absolute;
+	bottom: 475px;
+	right: 90px;
+}
+
+#pincers {
+	position: absolute;
+	top: 240px;
+	left: 560px;
+}
+
+#pincers:hover {
+	position: absolute;
+	top: 240px;
+	left: 555px;
+}
+
+#screwdriver {
+	position: absolute;
+	top: 140px;
+	left: 560px;
+}
+
+#screwdriver:hover {
+	position: absolute;
+	top: 200px;
+	left: 255px;
+}
+
+#toolbox {
+	position: absolute;
+	top: 190px;
+	left: 210px;
+}
+
+#toolbox:hover .dropdown {
+	display: block;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	top: 20px;
+	background-color: white;
+	list-style: none;
+	padding: 0;
+}
+
+.dropdown a {
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid black;
+}
+
+.dropdown a:hover {
+	background-color: rgb(255,255,170);
+}
+												/* Text stylen */										
+#humanfactor {
+	color: blue;
+}
+
+#dropdown-text {
+	position: relative;
+	display: inline-block;
+}
+
+#dropdown-text:hover .humanfactor {
+	display: block;
+}
+
+.humanfactor {
+	width: 215px;
+	height: 50px;
+	display: none;
+	position: absolute;
+	top: 20px;
+	background-color: white;
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding: 5px;
+}
